@@ -1,4 +1,4 @@
-import { About, Contact, Home } from '../../views';
+import { About, Contact, Home, Login, Register } from '../../views';
 import { NavbarItem } from '../navbarItem';
 
 const routes = [
@@ -16,6 +16,16 @@ const routes = [
     name: 'Contact',
     path: 'contact',
     Component: Contact
+  },
+  {
+    name: 'Login',
+    path: 'login',
+    Component: Login
+  },
+  {
+    name: 'Register',
+    path: 'register',
+    Component: Register
   },
 ];
 
